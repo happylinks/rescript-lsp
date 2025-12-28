@@ -1,0 +1,20 @@
+{
+  "name": "rescript-lsp",
+  "description": "ReScript language server for code intelligence",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michiel Westerbeek",
+    "email": "michiel@tella.tv"
+  },
+  "category": "development",
+  "lspServers": {
+    "rescript": {
+      "command": "rescript-language-server",
+      "args": ["--stdio"],
+      "extensionToLanguage": {
+        ".res": "rescript",
+        ".resi": "rescript"
+      }
+    }
+  }
+}

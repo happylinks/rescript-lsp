@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "happylinks-rescript-lsp",
+  "version": "1.0.0",
+  "description": "ReScript LSP plugin for Claude Code",
+  "owner": {
+    "name": "Michiel Westerbeek",
+    "email": "michiel@tella.tv"
+  },
+  "plugins": [
+    {
+      "name": "rescript-lsp",
+      "description": "ReScript language server for code intelligence",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michiel Westerbeek",
+        "email": "michiel@tella.tv"
+      },
+      "source": ".",
+      "category": "development"
+    }
+  ]
+}

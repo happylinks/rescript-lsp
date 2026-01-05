@@ -16,7 +16,7 @@
         "name": "Michiel Westerbeek",
         "email": "michiel@tella.tv"
       },
-      "source": ".",
+      "source": "./",
       "category": "development"
     }
   ]

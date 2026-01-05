@@ -6,7 +6,6 @@
     "name": "Michiel Westerbeek",
     "email": "michiel@tella.tv"
   },
-  "category": "development",
   "lspServers": {
     "rescript": {
       "command": "rescript-language-server",

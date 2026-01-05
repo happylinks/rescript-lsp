@@ -12,10 +12,11 @@ npm install -g @rescript/language-server
 
 ## Installation
 
-Add this plugin to Claude Code:
+Add the marketplace and install the plugin:
 
 ```bash
-claude /plugin add https://github.com/happylinks/rescript-lsp
+/plugin marketplace add happylinks/rescript-lsp
+/plugin install rescript-lsp@happylinks-rescript-lsp
 ```
 
 Then restart Claude Code.
